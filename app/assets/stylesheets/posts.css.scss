@@ -1,0 +1,123 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#error_explanation {
+  color: red;
+}
+
+body {
+  background: #9FEE00;
+}
+
+
+.new_button {
+  margin-bottom: 15px;
+}
+
+.new_button a {
+  color: #009999;
+}
+
+.new_button a:hover {
+  color: #FF0000;
+}
+
+.container {
+  background: #000;
+}
+
+.container h1 {
+  color: #fff;
+
+}
+
+.container a {
+  padding-left: 20px;
+}
+
+
+
+.content {
+  background: #fff;
+  padding: 5px 0 0 15px;
+}
+
+.content h3 {
+  color: #009999;
+  font-size: 16px;
+  margin-top: -3px;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.showeditdelete a {
+  font-size: 16px;
+  color: #009999;
+  margin-left: -20px;
+}
+
+.showeditdelete a:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+.showeditdelete p {
+  color: #009999;
+}
+
+.back_button {
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+
+
+
+.aside h3 {
+  color: #000;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.aside ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.aside ul li {
+  margin-left: -60px;
+}
+
+.aside a {
+  margin-left: 0;
+  color: #009999;
+}
+
+.col-md-3 {
+
+}
+
+
+
+.form {
+  background: #fff;
+  margin: -15px;
+  padding: 0 20px;
+}
+
+.form h1 {
+  margin-left: -20px;
+}
+
+.form a {
+  margin-left: -20px;
+}
+
+.footer {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+
+  <article>
+
+<% @posts.each do |post| %>
+    <h2><%= post.title %></h2>
+    <h3>Veröffentlicht am <%= l post.created_at, format: :blog %></h3>
+    <p><%= post.text %></p>
+
+    <div class="showeditdelete">
+    <!--link_to 'Show', post -->
+    <p><%= link_to 'Show', post_path(post) %> |
+    <!--link_to 'Show', action: :show, id: post.id -->
+    <%= link_to 'Edit', edit_post_path(post) %> |
+    <!--link_to 'Edit', action: :edit, id: post.id -->
+    <%= link_to 'Delete', post_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></p>
+    </div>
+<% end %>
+
+  </article>
+
+
+
+

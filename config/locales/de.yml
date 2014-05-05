@@ -1,0 +1,4 @@
+de:
+  time:
+    formats:
+      blog: "%d.%m.%Y, %H.%M Uhr"
