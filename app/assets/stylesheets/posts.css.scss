@@ -12,6 +12,7 @@ body {
 
 
 .new_button {
+  padding-left: 20px;
   margin-bottom: 15px;
 }
 
@@ -28,15 +29,21 @@ body {
 }
 
 .container h1 {
-  color: #fff;
-
+  color: #428bca;
+  margin-left: 20px;
 }
 
 .container a {
-  padding-left: 20px;
 }
 
+.posting a {
+  padding: 0;
+  color: #009999;
+}
 
+.posting {
+  font-size: 18px;
+}
 
 .content {
   background: #fff;
@@ -71,6 +78,10 @@ body {
 .back_button {
   margin-left: -20px;
   margin-bottom: 10px;
+}
+
+.edit_button {
+
 }
 
 

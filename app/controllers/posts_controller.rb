@@ -6,7 +6,7 @@ class PostsController < ApplicationController
 # posts GET    /posts(.:format)          posts#index
 # and an action for that route inside the PostsController:
   def index
-    @posts = Post.all.order(created_at: :desc).limit(10)
+    @posts = Post.all.order(created_at: :desc).limit(15)
   end
 # And then finally a view for this action, located at app/views/posts/index.html.erb
 

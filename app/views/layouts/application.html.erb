@@ -10,7 +10,9 @@
 
 <div class="container">
   <div class="row">
-    <h1><%= link_to "My Lovely Blog", :root %></h1>
+<!--     <h1><%= link_to "My Lovely Blog", :root %></h1>
+ -->
+    <h1>My Lovely Blog</h1>
     <div id="new_button" class="new_button"><%= link_to 'New post', :new_post %></div>
   </div>
 
@@ -22,7 +24,8 @@
     <div class="col-md-3 col-md-offset-1 aside">
       <h3>Archiv:</h3>
       <ul>
-        <li><a href="#">2014</a></li>
+        <!-- <li><a href="#">2014</a></li> -->
+        <li><%= link_to "2014", :root %></li>
         <li><a href="#">2013</a></li>
       </ul>
     </div>

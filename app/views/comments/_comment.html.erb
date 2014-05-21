@@ -1,13 +1,6 @@
 <p>
-  von (commenter):
-  <%= comment.commenter %>
-</p>
-
-<p>
-  Kommentar (comment):
+  Kommentar von User <%= comment.commenter %>:
   <%= comment.body %>
 </p>
 
-<p>
   <%= link_to 'Destroy comment', [comment.post, comment], method: :delete, data: { confirm: 'Are you sure?' } %>
-</p>

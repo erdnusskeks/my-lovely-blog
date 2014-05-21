@@ -1,12 +1,12 @@
 <%= form_for([@post, @post.comments.build]) do |f| %>
   <p>
     <%= f.label :commenter %><br />
-    <%= f.text_field :commenter %>
+    <%= f.text_field :commenter, placeholder: "Your name", :size => "80" %>
   </p>
 
   <p>
     <%= f.label :body %><br />
-    <%= f.text_area :body %>
+    <%= f.text_area :body, placeholder: "Your comment", :size => "82x10" %>
   </p>
 
   <p>
